@@ -1,0 +1,15 @@
+@use "../base/variable/"
+header{
+    .top-header{
+        background-color:variable.$primary-color;
+        color: white;
+        padding: 10px 50px;
+    }
+    .nav-bar{
+        padding: 10px 50px;
+        img{
+            height: 45px;
+            width: fit-content;
+        }
+    }
+}
