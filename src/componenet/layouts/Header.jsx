@@ -12,7 +12,8 @@ function Header() {
                     <div className="contact"><i className="bi bi-phone-fill"></i>+977-9766528535</div>
                     <ul className='d-flex gap-3 mb-0'>
                         <li><a href="">My Account</a></li>
-                        <li><a href="">Cart</a></li>
+                        <li><Link to={'/cart'} >Cart </Link></li>
+
                         <li><a href="">Our location</a></li>
                         <li><Link to={'/contact'} >Contact us</Link></li>
                     </ul>

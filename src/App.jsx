@@ -1,6 +1,7 @@
-import Header from "./componenet/layouts/Header"
-import Cate from "./componenet/category/Cate"
-import Footer from "./componenet/layouts/Footer"
+import Header from "./componenet/layouts/Header";
+import Cate from "./componenet/category/Cate";
+import Footer from "./componenet/layouts/Footer";
+
 
 
 

@@ -7,6 +7,9 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min.js'
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import App from './App.jsx'
 import './scss/style.scss'
+import Contact from './componenet/pages/Contact.jsx';
+import About from './componenet/pages/About.jsx';
+import Error from './componenet/pages/Error.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,20 +18,17 @@ const router = createBrowserRouter([
   },
   {
     path: "/contact",
-    element: <Shop />
+    element: <Contact/>
   },
-  {
-    path:"/Blog",
-   element:<Blog />,
+    {
+    path: "/about",
+    element: <About/>
   },
-  {
-    path:"/Pages",
-   element:<Pages />,
-  },
-  {
-    path:"/Features",
-   element:<Features />,
-  },
+   {
+    path: "/*",
+    element: <Error/>
+  }
+
   
 
 ]);
